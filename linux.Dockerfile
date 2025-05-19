@@ -74,7 +74,7 @@ RUN echo $'\n\nLinking steamclient.so to prevent srcds_run errors' &&`
         mkdir -p /app/.steam/sdk32 &&`
         ln -s /app/bin/steamclient.so /app/.steam/sdk32/steamclient.so &&
         mkdir -p /app/.steam/sdk64 &&`
-        ln -s /app/bin/steamclient.so /app/.steam/sdk32/steamclient.so;
+        ln -s /app/bin/steamclient.so /app/.steam/sdk64/steamclient.so;
 
 WORKDIR /app
 
